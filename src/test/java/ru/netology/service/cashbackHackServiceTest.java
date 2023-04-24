@@ -13,7 +13,7 @@ import static org.testng.Assert.assertEquals;
     void calculateCashback(){
         cashbackHackService service = new cashbackHackService();
         int expected =100;
-        int amount900 = 900;
+        int amount900 = 1000;
         int actual = service.remain (amount900);
         assertEquals(actual,expected);
 
